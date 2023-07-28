@@ -1,0 +1,86 @@
+.acses{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    .itemAcc2{
+        position: relative;
+        width: 50%;
+        background-image: url("https://preview.colorlib.com/theme/karl/img/bg-img/bg-3.jpg.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        .overlay{
+            width: 100%;
+            height: 100%;
+            transition: all ease 500ms;
+            &:hover{
+                background-color: #e83e8c;
+                opacity: 0.6;
+            }
+        }
+        .sing{
+            position: absolute;
+            top:50%;
+            margin-left: 10%;
+            
+        }
+    }
+    .itemAcc1{
+        width: 50%;
+        position: relative;
+        background: url("https://preview.colorlib.com/theme/karl/img/bg-img/bg-2.jpg.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center center;
+        transition: all ease 500ms;
+        .overlay{
+            width: 100%;
+            height: 100%;
+            &:hover{
+                background-color: #e83e8c;
+                opacity: 0.5;
+            }
+        }
+        .sing{
+            position: absolute;
+            top:50%;
+            margin-left: 10%;
+            z-index: 100;
+            
+        }
+    }
+    h2{
+        font-size: 92px;
+    letter-spacing: 0;
+    margin-left: -5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+    };
+    h6{ 
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    a{
+        text-decoration: none;
+        display:inline-block;
+        width: 200px;
+        height: 55px;
+        color: #fff;
+        border: 3px solid #fff;
+        border-radius: 2px;
+        padding: 0 30px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 49px;
+        transition: all 500ms ease 0s;
+        &:hover{
+            background-color: #ff084e;
+            border-color: #ff084e
+        }
+    }
+
+}

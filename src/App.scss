@@ -1,0 +1,30 @@
+%active_pasive{  
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top:0;
+  transition: all linear 500ms;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  transition-duration: 500ms;
+
+}
+
+.general{
+  display: flex;
+  gap: 0;
+  .Pas{
+    @extend%active_pasive;
+    left: 300px;
+    background-color: #fff;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5)
+  }
+  
+.App{
+  @extend%active_pasive;
+  z-index: 1000;
+}
+}

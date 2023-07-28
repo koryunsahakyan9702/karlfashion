@@ -1,0 +1,115 @@
+.main_side{
+    width: 92%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    .social{
+        display: flex;
+        gap:25px;
+        .karl-level{
+            position: absolute;
+            z-index: 1000;
+            color: #fff;
+            font-size: 11px;
+            text-transform: uppercase;
+            font-weight: 700;
+            background-color: #ff084e;
+            padding: 3px 10px;
+            top: -30px;
+            left: 10px;
+            &::after{
+                position: absolute;
+                z-index: 1000;
+                content: "";
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 9px 9px 9px;
+                border-color: transparent transparent #ff084e transparent;
+                bottom: -2px;
+                left: -6px;
+                transform: rotate(-45deg);
+            }
+        }
+    }
+    .mainManu{
+        display: flex;
+        gap: 50px;
+        text-transform: uppercase;
+        .drop{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: #000000;
+            .mainItem{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 700;
+                font-size: 14px;
+                transition: all 500ms ease 0s;
+                &:hover{
+                    background-color: #ff084e;
+                }
+            }
+        }
+        .mainLink{
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: black;
+            
+        }
+        .mainLink_shop{
+            position: relative;
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            color: black;
+            .karl-level{
+                position: absolute;
+                z-index: 1000;
+                color: #fff;
+                font-size: 11px;
+                text-transform: uppercase;
+                font-weight: 700;
+                background-color: #ff084e;
+                padding: 3px 10px;
+                top: -30px;
+                left: 10px;
+                &::after{
+                    position: absolute;
+                    z-index: 1000;
+                    content: "";
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 0 9px 9px 9px;
+                    border-color: transparent transparent #ff084e transparent;
+                    bottom: -2px;
+                    left: -6px;
+                    transform: rotate(-45deg);
+                }}
+        }
+    }
+    .telephone{
+       width: 192px; 
+        background-color: #ff084e;
+        text-align: center;
+        height: 35px;
+        padding: auto;
+        transition: all 500ms ease 0s;
+        cursor: pointer;
+        &:hover{
+            background-color: #3a3a3a;
+        }
+        .tel_link{
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+        }
+    }
+}
